@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "License Helper",
+  "version": "1.0",
+  "permissions": ["cookies", "tabs", "scripting", "activeTab"],
+  "host_permissions": ["https://localhost:7001/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "License Manager"
+  }
+}
